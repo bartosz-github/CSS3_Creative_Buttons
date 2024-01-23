@@ -32,4 +32,12 @@ a::before {
     width: 100%;
     height: 100%;
     background: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* rotaion/animation */
+    transform: rotateX(270deg);
+    transform-origin: top;
+    transition: all 0.5s;
 }
+
