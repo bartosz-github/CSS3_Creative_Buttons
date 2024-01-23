@@ -25,3 +25,11 @@ a {
     position: relative;
     overflow: hidden;
 }
+
+a::before {
+    content: "DOWNLOAD";
+    font-weight: bold;
+    color: #000;
+    position: absolute;
+}
+
