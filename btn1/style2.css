@@ -3,11 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-/*
-body {
-    background-color: lightslategray;
-}
-*/
+
 .container {
     display: flex;
     justify-content: center;
@@ -16,7 +12,6 @@ body {
     background: rgb(16, 16, 16);
     font-family: sans-serif;
 }
-
 a {
     text-decoration: none;
     color: antiquewhite;
@@ -39,20 +34,3 @@ a::before {
     transform: translateY(-100%);
     transition: all 1s;
 }
-
-
-/*
-a:before {
-    content: "DOWNLOAD";
-    font-weight: bold;
-    color: #000;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: antiquewhite;
-    transform: translateY(-100%);
-    transition: all 1s;
-}
-*/
