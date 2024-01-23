@@ -3,11 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-/*
-body {
-    background-color: lightslategray;
-}
-*/
+
 .container {
     display: flex;
     justify-content: center;
@@ -21,9 +17,10 @@ a {
     text-decoration: none;
     color: antiquewhite;
     border: 2px solid antiquewhite;
-    padding: 2rem, 5rem;
+    padding: 2rem 5rem;
     position: relative;
     overflow: hidden;
+    transition: all 1s;
 }
 
 a::before {
@@ -38,21 +35,12 @@ a::before {
     background: antiquewhite;
     transform: translateY(-100%);
     transition: all 1s;
+    /* center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-
-/*
-a:before {
-    content: "DOWNLOAD";
-    font-weight: bold;
-    color: #000;
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background: antiquewhite;
-    transform: translateY(-100%);
-    transition: all 1s;
+  
+a:hover:before {
+  transform: translateY(0);
 }
-*/
