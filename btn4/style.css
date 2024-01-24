@@ -55,6 +55,7 @@ body {
     height: 24px;
     bottom: -10px;
     right: -10px;
+    /*background: black;*/
     border-bottom: 4px solid darkblue;
     border-right: 4px solid darkblue;
     transition: all 0.25s;
