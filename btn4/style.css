@@ -28,3 +28,14 @@ body {
     position: relative;
     cursor: pointer;
 }
+
+.btn::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: -10px;
+    left: -10px;
+    
+
+}
