@@ -46,3 +46,12 @@ body {
     height: 100%;
     width: 100%;
 }
+
+.btn:hover::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    bottom: -10px;
+    right: -10px;
+}
