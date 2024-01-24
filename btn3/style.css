@@ -62,3 +62,7 @@ a:hover::after {
     left: 0;
     transform: perspective(1000px) rotateX(-75deg);
 }
+
+a:hover {
+    color: #000;
+}
