@@ -50,3 +50,10 @@ a::after {
     transition: all 0.2s;
     transform-origin: bottom;
 }
+
+a:hover::before {
+    top: -6px;
+    left: 0;
+    transform: perspective(1000px) rotate(75deg);
+    
+}
