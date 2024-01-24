@@ -54,6 +54,6 @@ a::after {
 a:hover::before {
     top: -6px;
     left: 0;
-    transform: perspective(1000px) rotate(75deg);
+    transform: perspective(1000px) rotateX(75deg);
     
 }
